@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Luckiest+Guy&family=Monoton&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.bg{
+	
+    height: 650vh;
+    background-size: cover;
+  background-color:  purple; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgb(234, 108, 238), white);
+	
+}
+
+.vl h1{
+    color: white;
+	font-weight: lighter;
+	font-family: 'Luckiest Guy';
+	font-style: italic;
+	font-size: 80px;
+	margin-top: 30px;
+	width: 1500px;
+	text-align: center;
+     text-shadow:  0 0 21px #fff,
+      0 0 42px #fff,
+      0 0 82px #f363d0,
+      0 0 92px #f363d0,
+      0 0 102px #f363d0,
+      0 0 151px #f363d0;
+	
+	text-decoration-color: rgb(234, 108, 238);
+	text-decoration-thickness: 6px;
+	text-shadow: 0 0 3px white, 0 0 5px black;
+}
+
+.mv{
+	color: rgb(234, 108, 238);
+	font-weight: 10px;
+	font-family: 'Changa One';
+	font-style: normal;
+	font-size: 30px;
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0 0 3px rgb(86, 5, 86), 0 0 5px white;
+
+}

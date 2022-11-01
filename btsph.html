@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Fredoka+One&family=Luckiest+Guy&family=Monoton&display=swap');
+            * {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color:#000;
+  
+  display:grid;
+  place-items:center;
+}
+img {
+  width: 30%;
+  height: 100%;
+  object-fit:cover;
+  
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+  
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+}
+.container {
+  max-width:600px;
+  max-height:350px;
+  
+  
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  
+}
+.container:hover img {
+  opacity:0.3;
+}
+.container img:hover {
+  transform:perspective(800px)       rotateY(0deg);
+  opacity:1;
+}
+
+.btsmem{
+    color: white;
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'Changa One', cursive;
+	font-style: italic;
+	padding-top: 20px;
+	margin-top: 5px;
+	width: 1450px;
+	text-align: center;
+	text-shadow: 0 0 3px white, 0 0 5px black;
+}
+        </style>
+    </head>
+  <body>
+
+    <h1 class="btsmem">⟭⟬ BTS Members</h1>
+    <div class="container">
+      <img src="rm.jpg" alt="rm">
+      <img src="jin.jpg" alt="jin">
+      <img src="jimin.jpg" alt="jimin">
+       <img src="suga.jpg" alt="suga">
+       <img 
+            src="jhope.jpg"  alt="jhope">
+      
+      <img 
+            src="v.jpg"  alt="V">
+      
+       <img 
+            src="jungkook.jpg"  alt="jungkook">
+      
+     
+    </div>
+  </body>
+</html>

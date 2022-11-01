@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Luckiest+Guy&family=Monoton&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(original.jpg ) no-repeat ;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 70px;
+	height: 70px;
+	padding: 5px 140px;
+	box-shadow: 0 0 50px white; 
+	
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display:inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Changa One', cursive;
+	font-weight: lighter;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(251, 4, 251);
+	border-radius: 2px;
+	
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: rgb(251, 4, 251);
+	font-size: 90px;
+	font-family: 'Changa One';
+	font-style: italic;
+	font-variant: normal;
+	width: 900px;
+	font-weight: lighter;
+	text-align: center;
+	text-shadow: 0 0 3px white, 0 0 10px white;
+}
+.center h2{
+	color: white;
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'Changa One', cursive;
+	font-style: italic;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+	text-shadow: 0 0 3px white, 0 0 5px black;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 200;
+	font-family: 'Changa One', cursive;
+	font-style: oblique;
+	color: white;
+	background:rgb(251, 4, 251);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 30px;
+	transition: .4s;
+	
+}
+.buttons .btn1 a{
+
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons .btn2 a{
+
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.buttons button:hover{
+	background: purple;
+	box-shadow: azure;
+	transform: scale(1.2);
+}
+
+
+
+.about{
+	
+	background: url(aestpurp.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Fredoka+One&family=Luckiest+Guy&family=Monoton&display=swap');
+			
+			.tex{
+				color: rgb(251, 4, 251);
+				font-size: 35px;
+				font-family: 'Changa One';
+				font-style: normal;
+				font-variant: normal;
+				width: 1500px;
+				font-weight: lighter;
+				padding-top: 0;
+				text-align: center;
+				text-shadow: 0 0 3px white, 0 0 10px black;
+				
+
+			
+			}
+
+			.btspng{
+				
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 120px;
+					height: 120px;
+				
+			}
+			
+			
+			
+			
+			.but1 button{
+			
+			
+			  background-color: whitesmoke;
+			  border: 10px;
+			  color: rgb(251, 4, 251);
+			  padding: 20px 30px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 16px;
+			  margin: 4px 700px;
+			  cursor: pointer;
+			 font-family: 'Changa One', cursive;
+			 font-style: oblique;
+			 outline: none;
+	cursor: pointer;
+	border: 1px solid white;
+	border-radius: 30px;
+	transition: .4s;
+
+			 
+			}
+
+
+
+			
+			
+				
+			  
+
+			  .abt{
+
+				font-family: 'Fredoka One', cursive;
+				color: aliceblue;
+				display: block;
+                margin-top: 35px;
+                margin-bottom: 1em;
+                margin-left: 250px;
+                margin-right: 250px;
+				text-shadow: 0 0 3px white, 0 0 5px black;
+				font-size: 18px;
+				
+			  }
+
+			  .but1 button:hover{
+				background: purple;
+				box-shadow: azure;
+				transform: scale(1.2);
+
+				
+			  }
+			  .txt{
+				color: aliceblue;
+			  }
+
+
+			  
+
+			
+
+			.abt2{
+				font-family: 'Fredoka One', cursive;
+				color: aliceblue;
+				display: block;
+                margin-top: 35px;
+                margin-bottom: 1em;
+                margin-left: 250px;
+                margin-right: 250px;
+				text-shadow: 0 0 3px white, 0 0 5px black;
+				font-size: 18px;
+
+			}
+
+			.note{
+				font-family: 'Changa One', cursive;
+				color:rgb(251, 4, 251) ;
+				display: block;
+                margin-top: 35px;
+                margin-bottom: 1em;
+                margin-left: 250px;
+                margin-right: 250px;
+				text-decoration: underline;
+				font-size: 12px;
+
+			}
+			
+
+
+
+
+
+			.header {
+				position: fixed;
+				top: 0;
+				z-index: 1;
+				width: 100%;
+				background-color: #f1f1f1;
+				
+			  }
+			  
+			  
+			  
+			  .progress-container {
+				width: 100%;
+				height: 4px;
+				background: #ccc;
+			  }
+			  
+			  .progress-bar {
+				height: 7px;
+				background:rgb(251, 4, 251)  ;
+				width: 0%;
+			  }
+
+
+
+			  .about{
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			  }
+
+
+			  .thirdpage{
+				background: url(btswall2.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+
+	
+}
+
+
+#aProgress {
+	width: 60%;
+	background-color: purple;
+	margin: 20px 7px;
+	margin-left: 300px;
+	
+  }
+  .proh1{
+	color: white;
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'Changa One', cursive;
+	font-style: italic;
+	padding-top: 90px;
+	margin-top: 5px;
+	width: 1450px;
+	text-align: center;
+	text-shadow: 0 0 3px white, 0 0 5px black;
+  }
+  
+  #aBar {
+	width: 1%;
+	height: 40px;
+	background: url(images.png);
+	
+  }
+  
+  .abut1 button{
+  color: rgb(251, 4, 251);
+  
+	background-color: white;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 700px;
+	cursor: pointer;
+	box-shadow: 0 0 10px white, 0 0 10px black;
+	
+  
+  }
+
+  .abut1 button:hover{
+	background: purple;
+	box-shadow: aliceblue;
+	transform: scale(1.2);
+
+  }
+
+
+
+
+  .aslider {
+	width: 1000px;
+	height: 300px;
+	background: url(btpu4.jpg);
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	text-align: center;
+	overflow: hidden;
+  }
+  .image-container {
+	width: 1500px;
+	background-color: pink;
+	height: 300px;
+	clear: both;
+	position: relative;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+	transition: left 2s;
+  }
+  .slide {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+  }
+  #slide-1:target ~ .image-container {
+	left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+	left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+	left: -1000px;
+  }
+  .abuttons {
+	position: relative;
+	top: -40px;
+  }
+  .abuttons a {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+	background-color: rgb(251, 4, 251);
+	box-shadow: 0 0 10px yellow, 0 0 20px yellow,  0 0 30px yellow;
+
+  }
+
+  .abuttons a:hover{
+
+	background: purple;
+	box-shadow: aliceblue;
+	transform: scale(1.3);
+
+  }
+
+
+  .extra{
+
+	
+
+	background: url(btswall3.jpg);
+	background-size: cover;
+	height: 100vh;
+	
+	
+  }
+
+
+  .extext{
+
+	color: white;
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'Changa One', cursive;
+	font-style: italic;
+	padding-top: 90px;
+	margin-top: 5px;
+	width: 1450px;
+	text-align: center;
+	text-shadow: 0 0 3px white, 0 0 5px black;
+
+  }
+
+
+  
+.bu4 {
+    padding: 0;
+    list-style-type: none;
+	padding-left: 675px;
+	padding-top: 100px;
+	
+}
+
+.bu4 li{
+    font-size: 25px;
+    width: 8em;
+    height: 2em;
+    color: rgb(251, 4, 251);
+    border-left: 0.08em solid;
+    position: relative;
+    margin-top: 0.8em;
+    cursor: pointer;
+	
+	
+}
+
+.bu4 li::before,
+.bu4 li::after
+ {
+    content: '';
+    position: absolute;
+    width: inherit;
+    border-left: inherit;
+    z-index: -1;
+}
+
+.bu4 li::before {
+    height: 80%;
+    top: 10%;
+    left: calc(-0.15em - 0.08em * 2);
+    filter: brightness(0.8);
+}
+
+.bu4 li::after {
+    height: 60%;
+    top: 20%;
+    left: calc(-0.15em * 2 - 0.08em * 3);
+    filter: brightness(0.6);
+}
+
+.bu4 li span {
+    position: relative;
+    height: 120%;
+    top: -10%;
+    box-sizing: border-box;
+    border: 0.08em solid;
+    background:url(btswall3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
+    transition: 0.3s;
+}
+
+.bu4 li:hover span {
+    transform: translateX(0.15em);
+}
+
+.bu4 .bt4 a{
+	list-style: none;
+	text-decoration: none;
+	color: rgb(251, 4, 251);
+}
+
+.newbadge {
+	background-color: red;
+	color: white;
+	padding: 2px 4px;
+	text-align: center;
+	border-radius: 5px;
+	
+  }
+
+  
+			.neonText {
+  color: #fff;
+  text-shadow:
+     
+      
+      0 0 21px #fff,
+      0 0 42px #f363d0,
+      0 0 82px #f363d0,
+      0 0 92px #f363d0,
+      0 0 102px #f363d0,
+      0 0 151px #f363d0;
+
+	  text-align: center;
+  font-family: 'Changa One', cursive;
+  font-weight: 100;
+  
+}
+
+/* Additional styling */
+  
+
+
+h1, h2 {
+  
+}
+  
+h1 {
+    font-size: 4.2rem;
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+.econtainer {
+  margin-top: 10px;
+  padding-top: 100px;
+   }
+		
+
+   .developed{
+	text-align:center;
+	padding-top: 180px;
+	padding-left: 1370px;
+	
+	margin-bottom: auto;
+	font-family:monospace;
+	font-weight: bold;
+	color: #fff;
+   }
